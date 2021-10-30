@@ -1,0 +1,64 @@
+/* 
+/* 
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+.select2-container
+{
+	width:100% !important;
+
+}
+
+.select2-selection--single
+{
+	height: calc(1.5em + 0.6875rem + 3px) !important;
+padding: 0.36rem 0.5rem;
+font-size: 0.875rem;
+font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+border-radius: 0.3125rem;
+font-weight: 600;
+line-height: 1.5 !important;
+border: 1px solid #cccccc !important;
+color: #555A64;
+background-color: #fff;
+background-clip: padding-box;
+
+border-radius: 0.1875rem;
+box-shadow: none;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.select2-selection__arrow
+{
+		height:33px !important;
+}
+
+.flag-text { 
+margin-left: 10px;
+font-family:inherit;
+ }
+
+ .select2-search--dropdown
+{
+	position: relative;
+	font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.select2-search--dropdown:before
+{
+ content: "";
+  position: absolute;
+  left: 10px;
+  top: 13px;
+  bottom: 0;
+  width: 17px;
+ background: url("../img/png/search.png") no-repeat;
+}
+
+.select2-search--dropdown .select2-search__field {
+  padding-left:30px !important;
+}
