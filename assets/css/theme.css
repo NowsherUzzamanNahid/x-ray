@@ -13459,7 +13459,11 @@ pre[class*="language-"] {
     position: relative;
     top: 2px; }
   .nav-tabs.lead .nav-link {
-    margin-right: 2.25rem; } }
+    margin-right: 2.25rem; } 
+  .pc-mr-54 {
+    margin-right: 54px;
+  }
+}
 
 @media (max-width: 767.98px) {
   .nav-tabs {
@@ -13509,6 +13513,9 @@ pre[class*="language-"] {
     }
     .m-ml-12 {
       margin-left: 12px;
+    }
+    .m-d-flex {
+      display: flex;
     }
   }
 
