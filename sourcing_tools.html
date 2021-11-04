@@ -2060,6 +2060,16 @@
                }
             }
          })
+
+         // Only cvs
+         $('#cvs').click(function(){
+            if($(this).prop("checked") == true){
+                $('.show_cvs_field').show();
+            }
+            else if($(this).prop("checked") == false){
+               $('.show_cvs_field').hide();
+            }
+        });
          
       </script>
 
