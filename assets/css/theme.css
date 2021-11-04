@@ -13504,6 +13504,9 @@ pre[class*="language-"] {
     #navbarNavDropdown {
       background-color: var(--primary);
     }
+    div#navbarNavDropdown {
+      border-radius: 5px !important;
+    }
     .input-divider {
       padding-left: 12px;
       padding-bottom: 14px;
