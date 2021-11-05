@@ -13507,6 +13507,9 @@ pre[class*="language-"] {
     div#navbarNavDropdown {
       border-radius: 5px !important;
     }
+    ul#myTab-2 {
+      display: unset;
+    }
     .input-divider {
       padding-left: 12px;
       padding-bottom: 14px;
