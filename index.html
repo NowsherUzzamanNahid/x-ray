@@ -642,7 +642,10 @@
         $(".navbar-toggler").click(function(){
             $('#navbarNavDropdown').toggle();
          })
-        
+        $(".dropdown-item").click(function(){
+            $('#navbarNavDropdown').hide();
+        })
+
 var strInterval;
 var stringCount = 0;
 var saveCount = 0;
