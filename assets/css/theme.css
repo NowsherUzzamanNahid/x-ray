@@ -13499,6 +13499,16 @@ pre[class*="language-"] {
   .pc-mr-54 {
     margin-right: 0;
   }
+  #navbarNavDropdown {
+    background-color: var(--primary);
+  }
+  .navbar-nav .nav-link.nav-item {
+    color: #fff;
+    margin-left: 20px
+  }
+  .navbar-nav .dropdown-item {
+    color: #fff;
+  }
 }
 
 @media (max-width: 767.98px) {
