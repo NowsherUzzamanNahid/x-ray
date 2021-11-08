@@ -13496,6 +13496,9 @@ pre[class*="language-"] {
   #myTabContent-3.col-md-10 {
     max-width: 95.3333%;
   }
+  .pc-mr-54 {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 767.98px) {
