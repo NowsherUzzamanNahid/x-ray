@@ -13641,7 +13641,9 @@ pre[class*="language-"] {
   margin-left: 10px;
 }
 .source-tool a:hover {
-  background-color: var(--green);
+  color: #fff;
+  background-color: #007556;
+  border-color: #00684c !important;
 }
 .home-email {
   padding-left: 20px;
