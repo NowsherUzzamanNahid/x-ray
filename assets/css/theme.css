@@ -13470,7 +13470,7 @@ pre[class*="language-"] {
   }
 }
 
-@media (width: 768px){
+@media only screen and (max-width: 991px) and (min-width: 768px){
   .container {
     max-width: 540px;
   }
@@ -13490,6 +13490,9 @@ pre[class*="language-"] {
   }
   .t-ml-12 {
     margin-left: 12px
+  }
+  .t-mt-12 {
+    margin-top: 12px
   }
   .t-mb-15 {
     margin-bottom: 15px
